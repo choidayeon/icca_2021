@@ -1,0 +1,96 @@
+@charset 'utf-8';
+*{margin:0;padding:0;text-decoration:none;font-family:"나눔스퀘어";}
+a:link,a:visited{color:#000;}
+a{text-decoration:none;}
+ul,li{list-style:none;}
+
+@media (min-width:751px){
+
+.carousel-inner img{width:100%;background-position:center top;}
+/*nav.head_bar{background:rgba(0,0,0,0.6);transition-duration:.6s;}*/
+.nav-item>a.color{color:#fff;}
+.image01{position:relative;}
+/*#main_wrap{height:1700px;}*/
+nav.head_bar{height:80px;background:#fff;position:fixed;top:0;z-index:10;width:100%;transition-duration:0.3s;}
+.textsm{font-size:13px;}
+.subject{font-size:30px;color:#684932;}
+.orange{background:#fb6902;}
+.bdl{border-left:1px solid #666;}
+.bdr{border-right:1px solid #666;}
+.bdb{border-bottom:1px solid #aaa;}
+h3:hover{color:#684932;cursor:pointer;}
+h2{font-weight:bold;}
+.housetext{position:absolute;bottom:0;color:#fff;}
+.porel{position:relative;}
+.poabs{position:absolute;}
+.right{right:15px;top:20px;}
+.bgdark{background:rgba(0,0,0,0.5);}
+.smtext{font-size:13px;color:#aaa;}
+.txtlg{font-size:22px;font-weight:bold;}
+.hover:hover{text-decoration:underline;}
+.best{font-size:40px;font-style:italic;text-align:center;}
+.bwrap{position:relative;}
+.besttext{position:absolute;left:0;bottom:0;background:rgba(0,0,0,0.5);color:#fff;display:none;}
+.sub .subdiv{position:relative;}
+.sub h2{position:absolute;top:50%;left:50%;padding:10px;cursor:pointer;transform:translate(-50%,-50%);}
+.sub h2>span:after{display:block;content:"";width:0px;border-bottom:2px solid #fff;transition-duration:.5s;}
+.sub h2>span.active:after{width:100%;}
+.sub h2:hover{background:#000;}
+.black:hover{color:#fff;}
+.white{color:#fff;text-shadow:3px 3px 10px rgba(0,0,0,0.6);}
+.sns img{cursor:pointer;}
+.info-list>p{color:#888;font-size:13px;}
+.info-list>p>strong{color:#eee;}
+.m-font{font-size:25px;}
+.hambtn{background-color:#888;z-index:10;}
+.magazin>div{cursor:pointer;}
+.magazin .row>div:hover div.box{color:orange;}
+}
+
+@media(max-width:750px){
+	.class .card img{margin:0 auto;}
+	.navbar-toggler-icon {background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");}
+	.navbar-toggler {color: rgba(0, 0,0, 0.5);border-color: rgba(0, 0,0, 0.5);}
+
+	.carousel-inner img{width:100%;background-position:center top;}
+/*nav.head_bar{background:rgba(0,0,0,0.6);transition-duration:.6s;}*/
+.nav-item>a.color{color:#fff;}
+.image01{position:relative;}
+/*#main_wrap{height:1700px;}*/
+nav.head_bar{height:80px;background:#fff;position:fixed;top:0;z-index:10;width:100%;transition-duration:0.3s;}
+.textsm{font-size:13px;}
+.subject{font-size:30px;color:#684932;}
+.orange{background:#fb6902;}
+.orange .row>div{padding-left:10px;}
+.orange .row>div>h3{font-size:22px;font-weight:bold;}
+.orange .row>div>p{}
+.bdl{border-left:1px solid #666;}
+.bdr{border-right:1px solid #666;}
+.bdb{border-bottom:1px solid #aaa;}
+h3:hover{color:#684932;cursor:pointer;}
+h2{font-weight:bold;}
+.housetext{position:absolute;bottom:0;color:#fff;}
+.porel{position:relative;}
+.poabs{position:absolute;}
+.right{right:15px;top:20px;}
+.bgdark{background:rgba(0,0,0,0.5);}
+.smtext{font-size:13px;color:#aaa;}
+.txtlg{font-size:22px;font-weight:bold;}
+.hover:hover{text-decoration:underline;}
+.best{font-size:40px;font-style:italic;text-align:center;}
+.bwrap{position:relative;}
+.besttext{position:absolute;left:0;bottom:0;background:rgba(0,0,0,0.5);color:#fff;display:none;}
+.sub .subdiv{position:relative;}
+.sub h2{position:absolute;top:50%;left:50%;padding:10px;cursor:pointer;transform:translate(-50%,-50%);}
+.sub h2>span:after{display:block;content:"";width:0px;border-bottom:2px solid #fff;transition-duration:.5s;}
+.sub h2>span.active:after{width:100%;}
+.sub h2:hover{background:#000;}
+.black:hover{color:#fff;}
+.white{color:#fff;text-shadow:3px 3px 10px rgba(0,0,0,0.6);}
+.sns img{cursor:pointer;}
+.info-list>p{color:#888;font-size:13px;}
+.info-list>p>strong{color:#eee;}
+.m-font{font-size:25px;}
+.hambtn{background-color:#888;z-index:10;}
+.magazin>div{cursor:pointer;}
+}
