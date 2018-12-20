@@ -45,6 +45,12 @@ h2{font-weight:bold;}
 .hambtn{background-color:#888;z-index:10;}
 .magazin>div{cursor:pointer;}
 .magazin .row>div:hover div.box{color:orange;}
+.magazin .row .card{overflow:hidden;width:100%;height:300px;}
+.magazin .row .card>img:hover{transform:translateX(-10px);width:110%;transition-duration:0.5s;}
+.magazin .morebtn{display:none;}
+.maga_img .card:hover h5{color:orange;}
+.marketwrap{position:relative;}
+.marketbtn{position:absolute;right:0;top:40px;padding:10px 30px;}
 }
 
 @media(max-width:750px){
@@ -93,4 +99,20 @@ h2{font-weight:bold;}
 .m-font{font-size:25px;}
 .hambtn{background-color:#888;z-index:10;}
 .magazin>div{cursor:pointer;}
+.header button{float:right;margin:25px 0 0;}
+.magazin .row>div{width:90%;margin:0 auto;text-align:center;}
+.news_c .news_i{width:95%;height:50%;margin:0 auto;}
+.news_c .news_i .nimg{width:30%;height:50%;}
+.news_c .news_i .ntxt{width:70%;}
+.news_c .news_i:after{content:"";display:block;}
+.news_c .news_i>div{float:left;padding:0;}
+.news_c .news_i h3{font-size:20px;margin:0;}
+.logo{padding-left:10px;}
+.maga_img .card-body{position:absolute;background:rgba(0,0,0,0.3);width:100%;}
+.maga_img .card-body h5{font-size:16px;color:#fff;font-weight:bold;}
+.maga_img>div{width:88%;margin:0 auto 10px;}
+.maga_img .card{height:180px;overflow:hidden;}
+.maga_img .card>img{background-position:center;}
+.marketwrap{position:relative;}
+.marketbtn{position:absolute;right:0;top:40px;padding:10px 30px;}
 }

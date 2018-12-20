@@ -1,6 +1,9 @@
 $(function(){
-			var menu = $(".header").offset().top+100;
+		$(window).resize(function(){
+		var windowWidth = $(window).outerWidth()
 
+		if(windowWidth > 750){
+			var menu = $(".header").offset().top+100;
 			$(window).on("scroll",function(){
 				var scrollY = window.pageYOffset;
 				if(scrollY>menu){
@@ -11,11 +14,13 @@ $(function(){
 					$("nav").css("box-shadow","none");
 				}
 			});
+		}
+		});		
 
 			$(".bwrap").hover(function(){
-				$(this).find(".besttext").stop().slideUp();
+				$(this).find(".besttext").stop().slideDown();
 			},function(){
-				$(".besttext").stop().slideDown();
+				$(".besttext").stop().slideUp();
 			});
 
 			// $(".pnone").mouseover(function(){
